@@ -15,6 +15,11 @@
 - Vue advanced
   - [1. alkalom - 2018 július 10.](#1-alkalom---20180710)
   - [2. alkalom - 2018 július 17.](#2-alkalom---20180717)
+  - [3. alkalom - 2018 július 18.](#3-alkalom---20180718)
+  - [4. alkalom - 2018 július 24.](#4-alkalom---20180724)
+  - [5. alkalom - 2018 július 26.](#5-alkalom---20180726)
+  - [6. alkalom - 2018 július 31.](#6-alkalom---20180731)
+  - [7. alkalom - 2018 augusztus 02.](#7-alkalom---20180802)
 
 ## Elérhetőségek
 
@@ -29,6 +34,90 @@ https://www.facebook.com/groups/364060044017273/
 - nagy.gergo@netacademia.hu
 
 ## Vue Advanced
+
+### 7. alkalom - 2018.08.02.
+
+**Feladat**
+
+- route guard fix
+- blog categories fix
+- navigation refactor (profile link és logout)
+- open source sw tanulási minta vue-routeren keresztül
+- vue-router examples checkout, indítás és megértés
+
+![Áttekintő az óráról](https://raw.githubusercontent.com/dosabalint/webfejleszto-vue/master/assets/mm-vue-advanced07.png)
+
+**Repository**
+
+https://github.com/dosabalint/webfejleszto-vue-fizuhu/releases/tag/adv07_0802_navigation-oss
+
+### 6. alkalom - 2018.07.31.
+
+**Feladat**
+
+- vscode setup, hogy a html részt is formázza
+- vue-app babel preset
+- dataservice refactor + vuex + promisok
+- firebase database app levedes
+- firebase hosting
+- házik
+
+![Áttekintő az óráról](https://raw.githubusercontent.com/dosabalint/webfejleszto-vue/master/assets/mm-vue-advanced06.png)
+
+**Repository**
+
+https://github.com/dosabalint/webfejleszto-vue-fizuhu/releases/tag/adv06_0731_dataservice_es_firebase
+
+### 5. alkalom - 2018.07.26.
+
+**Feladat**
+
+- átvesszük és kijavítjük a babel configunkat, hogy jobban vigyázzon ránk
+- vuex-et ismétlünk
+- types refactor elgépelés ellen
+- user teljes refactor
+- blog olvasás bejelenktkezéshez kötése
+- localStorage használat login perszisztenciára
+
+![Áttekintő az óráról](https://raw.githubusercontent.com/dosabalint/webfejleszto-vue/master/assets/mm-vue-advanced05.png)
+
+**Repository**
+
+https://github.com/dosabalint/webfejleszto-vue-fizuhu/releases/tag/adv05_0726_blog-levedes
+
+### 4. alkalom - 2018.07.24.
+
+**Feladat**
+
+- megértjük a javascript fejlődését, verzióit
+- átismétlünk pár új nyelvi elemet: rest, spred és destructoring
+- megnézzük, hogy mit csinál nekünk pontosan a babel és hogyan működik együtt a webpack-el
+- refactore-oljuk a store-unkat külön fileba, hogy függetlenedni tudjunk a Vue-s környezettől
+  - megértjük hogyan is működnek pontosan az import exportok es2015-ben
+- megismerjük a vuex-et
+  - a frissen előállt független storeunkat refactoroljuk vuex-es verzióra, mert szeretjük ha okos emberek dolgoznak sokat helyettünk!
+- megértjük, hogy miért is kellett ezt a részt az authentikáció kellős közepén megtanulnunk
+
+![Áttekintő az óráról](https://raw.githubusercontent.com/dosabalint/webfejleszto-vue/master/assets/mm-vue-advanced04.png)
+
+**Repository**
+
+https://github.com/dosabalint/webfejleszto-vue-fizuhu/releases/tag/adv04_0724_vuex
+
+### 3. alkalom - 2018.07.18.
+
+**Feladat**
+
+- Ismételjük az eddigieket azon keresztül, hogy megvalósítjuk a registration-t is
+- refaktorolunk a kódunkon sokat, hogy minimalizáljuk önmagunk ismétlését
+- logikailag elkezdjük elszeparálni az action-öket és a mutation-öket
+  - egyelőre még a root instance eszközein keresztül
+
+![Áttekintő az óráról](https://raw.githubusercontent.com/dosabalint/webfejleszto-vue/master/assets/mm-vue-advanced03.png)
+
+**Repository**
+
+https://github.com/dosabalint/webfejleszto-vue-fizuhu/releases/tag/adv03_0718_reigistration
 
 ### 2. alkalom - 2018.07.17.
 
